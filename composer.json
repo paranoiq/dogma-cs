@@ -1,0 +1,23 @@
+{
+    "name": "dogma/dogma-cs",
+    "type": "library",
+    "description": "Coding standard for Dogma and other projects",
+    "homepage": "https://github.com/paranoiq/dogma-cs",
+    "license": ["BSD-3-Clause"],
+    "authors": [
+        {
+            "name": "Vlasta Neubauer",
+            "homepage": "https://paranoiq.cz"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "slevomat/coding-standard": "8.28.0",
+        "squizlabs/php_codesniffer": "^4.0.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": false
+        }
+    }
+}
